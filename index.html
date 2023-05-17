@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>likes-project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <h1>Network</h1>
+    </nav>
+    <div class="main">
+        <!-- Main Content Header -->
+        <div class="header">
+            <h2>Your feed</h2>
+        </div>
+        <div class="columns">
+            <!-- lefthanded box for user info -->
+            <div class="UserBox">
+                <img src="./Images/user-circle.png" alt="profile picture" id="profilePicture">
+                <a href="#">Add an avatar</a>
+                <h2>James Doe</h2>
+            </div>
+            <!-- right handed box for messages -->
+            <div class="rightColumn">
+                <!-- all of our message containers are the same dimensions so they have been labeled identically -->
+                <!-- div container for Neil -->
+                <div class="messageContainer">
+                    <div class="topRow">
+                        <h2>Neil M</h2>
+                        <div class="rightTop">
+                            <p id="neilLikes">likes(s)</p>
+                            <Button onclick="neilLike()">Like</Button>
+                        </div>
+                    </div>
+                    <div class="bottomRow">
+                        <p class="neilmessage">I just set up this new discord bot let me know what you all think.
+                            <a href="#">link</a>
+                        </p>
+                    </div>
+                </div>
+                <!-- div container for Nichole -->
+                <div class="messageContainer">
+                    <div class="topRow">
+                        <h2>Nichole K</h2>
+                        <div class="rightTop">
+                            <p id="nicholeLikes">likes(s)</p>
+                            <Button onclick="nicholeLike()">Like</Button>
+                        </div>
+                    </div>
+                    <div class="bottomRow">
+                        <p class="nicholeMessage">Just finished my <a href="#">next comic</a>, check it out. </p>
+                    </div>
+                </div>
+                <!-- div container for Jim -->
+                <div class="messageContainer">
+                    <div class="topRow">
+                        <h2>Jim R</h2>
+                        <div class="rightTop">
+                            <p id="jimLikes">likes(s)</p>
+                            <Button onclick="jimLike()">Like</Button>
+                        </div>
+                    </div>
+                    <div class="bottomRow">
+                        <p class="jimMessage">I can't stop listening to the
+                            <a href="#">new album</a>. Who else is liking it?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

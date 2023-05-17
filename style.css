@@ -1,0 +1,124 @@
+/* Reset */
+* {
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body{
+    width: 1000px;
+    margin: 0 auto;
+}
+/* Navbar */
+nav{
+    margin: 0 auto;
+    width: 850px;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+h1{
+    margin-left: 15px;
+    font-size: xx-large;
+    color: white;
+}
+
+/* main content */
+
+.main{
+    width: 850px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: xx-large;
+}
+
+/* columns container */
+.columns{
+    width: 850px;
+    height: 750px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* UserBox */
+
+.UserBox{
+    width: 250px;
+    height: 300px;
+    border: solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#profilePicture{
+    height: 150px;
+    width: 150px;
+}
+
+a{
+    color: #085394;
+    font-size: large;
+}
+
+.rightColumn{
+    width: 550px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Message Containers */
+
+.messageContainer{
+    width: 550px;
+    height: 155px;
+    border: solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.topRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.rightTop{
+    display: flex;
+    align-items: center;
+}
+
+.rightTop>button{
+    margin-left: 15px;
+    width: 75px;
+    height: 38px;
+    border: solid black;
+    background-color: yellow;
+    box-shadow: 5px 5px;
+}
+
+.bottomRow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.bottomRow>p{
+    font-size: large;
+}
